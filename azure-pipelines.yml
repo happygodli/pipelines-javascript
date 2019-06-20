@@ -21,3 +21,5 @@ steps:
     versionSpec: $(node_version)
 
 - script: npm install
+
+- script: mocha test --reporter mocha-junit-reporter
